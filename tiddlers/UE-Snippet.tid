@@ -1,9 +1,8 @@
-created: 20241116084611459
+created: 20241116183522497
 creator: straywriter
-modified: 20241116092627962
+modified: 20241116183524070
 modifier: straywriter
-tags: Index
-title: 新条目
+title: UE-Snippet
 
 \define search-box(tempTiddler)
 <$keyboard key="escape" actions="""<$action-setfield $tiddler=<<__tempTiddler__>> $field=text $value=""/>""" >

@@ -1,0 +1,55 @@
+created: 20241116181410470
+creator: straywriter
+modified: 20241116182620319
+modifier: straywriter
+title: Angelscript
+
+\define search-box(tempTiddler)
+<$keyboard key="escape" actions="""<$action-setfield $tiddler=<<__tempTiddler__>> $field=text $value=""/>""" >
+<$edit-text tiddler=<<__tempTiddler__>>
+  field=text 	tag=input 	type=search
+	default=""  placeholder=" enter your search terms"
+	class="search-box" />
+</$keyboard>
+\end
+\define tidSearchinTasks()$:/temp/tasks/dtable/search
+\define createTask()
+<$action-createtiddler $basetitle="New article" tags="Angelscript" type="text/markdown"/>
+\end
+
+\define newTask() <$button actions=<<createTask>>class="btn btn-sm mr-1">创建新文章</$button>
+
+<div class=float-right>
+<<newTask>>
+</div>
+
+
+<style>
+.search-box {
+  border:none;
+  border-bottom:1px solid #ccc;
+  outline-style: none;
+  width:20em
+}
+
+.search-box::placeholder {
+  font-size: 0.9em;
+	color: <<color muted-foreground>>
+}
+
+.search-box label{display:block;}
+/* prevent overflow on long links */
+.tc-tiddler-frame table.kk-idea td {
+  word-break: break-word;
+  padding: 0 7px 0 7px;
+  }
+</style>
+
+Filter and search in table <$macrocall label="" tempTiddler=<<tidSearchinTasks>> $name=search-box/><br>
+
+<$let searchTerm={{{[<tidSearchinTasks>get[text]]}}}>
+<$list filter="[<tidSearchinTasks>has[text]]"emptyMessage="<small> All Issue: <$count filter=[tag[Angelscript]]/>"variable=null>
+<small><$count filter="[tag[Task]search<searchTerm>]"/> matches</small>
+</$list>
+<!---->
+<$macrocall $name=table-dynamic filter="[tag[Angelscript]!prefix[Job]!prefix[Sample]search<searchTerm>]" fields="tbl-checkbox tbl-expand title modified tags" class="kk-idea w-100" stateTiddler="tasks-state-tid"/>
