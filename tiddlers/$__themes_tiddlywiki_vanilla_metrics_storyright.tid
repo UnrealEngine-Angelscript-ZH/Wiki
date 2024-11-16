@@ -1,0 +1,7 @@
+created: 20241116085851056
+creator: straywriter
+modified: 20241116085851056
+modifier: straywriter
+title: $:/themes/tiddlywiki/vanilla/metrics/storyright
+
+calc({{$:/xp/leftopentab/metrics/storyright}} + {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}})
