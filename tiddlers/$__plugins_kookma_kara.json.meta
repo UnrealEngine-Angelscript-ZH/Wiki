@@ -1,0 +1,11 @@
+author: Mohammad Rahmani
+core-version: >=5.2.2
+dependents: 
+description: Small plain checklist and interstitial journaling
+list: readme history license
+name: Kara
+plugin-type: plugin
+source: https://github.com/kookma/TW-Kara
+title: $:/plugins/kookma/kara
+type: application/json
+version: 0.8.1
