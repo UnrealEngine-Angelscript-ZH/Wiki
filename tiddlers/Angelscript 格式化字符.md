@@ -3,7 +3,7 @@
 ## f-string 格式化
 
 Angelscript的格式化字符串参考了Python f-string
-![](https://chinese.freecodecamp.org/news/content/images/size/w2000/2023/01/py-fstrings.png)
+![](https://chinese.freecodecamp.org/news/content/images/size/w2000/2023/01/py-fstrings.png){ width=300 height=200 }
 
 
 
