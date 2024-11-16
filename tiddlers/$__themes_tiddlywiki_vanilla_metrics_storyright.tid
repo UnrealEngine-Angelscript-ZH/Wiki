@@ -1,7 +1,7 @@
 created: 20241116085851056
 creator: straywriter
-modified: 20241116085851056
+modified: 20241116095109115
 modifier: straywriter
 title: $:/themes/tiddlywiki/vanilla/metrics/storyright
 
-calc({{$:/xp/leftopentab/metrics/storyright}} + {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}})
+<$text text={{$:/xp/leftopentab/metrics/storyright}}/>

@@ -1,7 +1,7 @@
 created: 20241116085851056
 creator: straywriter
-modified: 20241116085851056
+modified: 20241116095109115
 modifier: straywriter
 title: $:/themes/tiddlywiki/vanilla/metrics/storyleft
 
-calc({{$:/xp/leftopentab/metrics/width}} + {{$:/xp/leftopentab/metrics/storyleft}} - {{$:/xp/leftopentab/metrics/storyriverpaddingleft}})
+<$text text={{$:/xp/leftopentab/metrics/storyleft}}/>
