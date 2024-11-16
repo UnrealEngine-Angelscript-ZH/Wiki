@@ -1,37 +1,29 @@
-[English](/README.md) | [中文](/README_zh-CN.md)
+## Wiki内容范围：
 
-# Tiddlywiki-NodeJS-Github-Template
+- Unreal Engine Angelscript原理及应用
+- Unreal Engine 开发分享
+- Angelscript 原理分享
+- 社区问题记录
 
-Default wiki template for [TidGi-Desktop](https://github.com/tiddly-gittly/TidGi-Desktop), an App that can generate template wiki on one-click.
 
-Knowledge base Template, with advanced filter search and faceted data aggregation.
 
-[onetwo.ren/wiki](https://onetwo.ren/wiki) is an example of this template. And [tiddly-gittly.github.io/Tiddlywiki-NodeJS-Github-Template/](https://tiddly-gittly.github.io/Tiddlywiki-NodeJS-Github-Template/) is deployed example of this repo. (There are some optimization to make this demo readonly, and being not downloadable, so its size is almost as small as a GIF picture.)
+## Wiki使用：
 
-You need to change the contents of the `$:/GitHub/Repo` entry to your personal github repository address.The default branch is master, you can manually change the `$:/core/templates/canonical-uri-external-image` entry to another branch such as main.
+| 操作     | 简介                                             |
+| -------- | ------------------------------------------------ |
+| 搜索     | Ctrl+P : Search everything（支持模糊拼音搜索）   |
+| 标签     | 点击标签可以看到该标签下的所有文章               |
+| 保存     | Ctrl+S : 可以保存一份到本地                      |
+| 全部内容 | 右边侧栏 更多->全部 下可以查看当前Wiki的全部内容 |
 
-Downloadable HTML is at [tiddly-gittly.github.io/Tiddlywiki-NodeJS-Github-Template/offline.html](https://tiddly-gittly.github.io/Tiddlywiki-NodeJS-Github-Template/offline.html), which contains edit related plugins, and will be slightly bigger (a size of a tiktok video.)
 
-This repo used to contains the wiki backup data and script to start a local wiki server on MacOS on start up. It is now deprecated, and no money to maintain, now [TiddlyGit-Desktop](https://github.com/tiddly-gittly/TiddlyGit-Desktop) is preferred. Old version can be found at the [feat/auto-start branch](https://github.com/tiddly-gittly/Tiddlywiki-NodeJS-Github-Template/tree/feat/auto-start). Contribution to it is welcome.
 
-## Setup
+## Wiki搭建及贡献方法
 
-[用TiddlyWiki替代Notion和EverNote作为个人知识管理系统 (Chinese)](https://onetwo.ren/%E7%94%A8tiddlywiki%E6%9B%BF%E4%BB%A3notion%E5%92%8Cevernote%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86/)
-
-English translation comeout soon. (?)
-
-## Deployed to Github Pages
-
-Automatically.
-
-## NPM Scripts
-
-`npm build`: pack tiddlywiki data to a HTML file
-
-## Shell Scripts
-
-[scripts/build-wiki.js](scripts/build-wiki.js) will actually pack tiddlywiki data to a HTML file
-
-## Credit
-
-Scripts are inspired by [DiamondYuan/wiki](https://github.com/DiamondYuan/wiki)
+- 本Wiki主要使用[TidGi-Desktop](https://github.com/tiddly-gittly/TidGi-Desktop)进行发布，可以上传后利用GitHub Action自动进行发布，Clone仓库后可以本地用这个桌面端进行打开
+- 贡献方式：
+  - GitHub提PR
+  - Issue中发布
+  - QQ群发布并@群主
+- 仓库地址：https://github.com/UnrealEngine-Angelscript-ZH/Wiki
+- QQ群：993011485
