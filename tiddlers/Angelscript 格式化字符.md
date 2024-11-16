@@ -4,7 +4,7 @@
 
 Angelscript的格式化字符串参考了Python f-string
 
-<img src="https://chinese.freecodecamp.org/news/content/images/size/w2000/2023/01/py-fstrings.png" style="zoom:50%;" />
+<img src="https://chinese.freecodecamp.org/news/content/images/size/w2000/2023/01/py-fstrings.png" style="zoom:33%;" />
 
 
 
