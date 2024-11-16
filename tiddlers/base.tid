@@ -34,7 +34,7 @@ img {
 
 /* h1 标题样式 */
 .markdown h1 {
-    font-size: 36px; /* 字体大小 */
+    font-size: 28px; /* 字体大小 */
     background-color: #f0f8ff; /* 背景颜色 */
     padding: 10px 15px; /* 内边距 */
     border-left: 5px solid #1e90ff; /* 左侧边框 */
@@ -42,7 +42,7 @@ img {
 
 /* h2 标题样式 */
 .markdown h2 {
-    font-size: 30px; /* 字体大小 */
+    font-size: 24px; /* 字体大小 */
     background-color: #e6f7ff; /* 背景颜色 */
     padding: 8px 12px; /* 内边距 */
     border-left: 4px solid #1e90ff; /* 左侧边框 */
@@ -50,7 +50,7 @@ img {
 
 /* h3 标题样式 */
 .markdown h3 {
-    font-size: 24px; /* 字体大小 */
+    font-size: 22px; /* 字体大小 */
     background-color: #ccf0ff; /* 背景颜色 */
     padding: 6px 10px; /* 内边距 */
     border-left: 3px solid #1e90ff; /* 左侧边框 */
@@ -70,4 +70,45 @@ img {
     background-color: #99ddff; /* 背景颜色 */
     padding: 2px 6px; /* 内边距 */
     border-left: 1px solid #1e90ff; /* 左侧边框 */
+}
+
+
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top : 0.8em;
+    margin-down : 0.8em;
+    padding: 0;
+    width: 100%;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
 }
