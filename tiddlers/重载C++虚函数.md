@@ -1,10 +1,3 @@
-created: 20241117162201589
-creator: straywriter
-modified: 20241117162647915
-modifier: straywriter
-tags: 函数调用 Example Angelscript
-title: 重载C++虚函数
-
 和蓝图类似需要标记UFUNCTION为BlueprintImplementableEvent或BlueprintNativeEvent
 
 ```cpp
@@ -13,6 +6,7 @@ UFUNCTION(BlueprintNativeEvent)
 ```
 
 #### 示例：
+.cpp
 
 ```cpp
 UCLASS()
@@ -37,7 +31,7 @@ public:
 };
 ```
 
-as:
+.as
 
 ```cpp
 class AASMyActor : AMyActor
