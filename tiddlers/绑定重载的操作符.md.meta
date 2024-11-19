@@ -1,6 +1,7 @@
 created: 20241119042524657
 creator: straywriter
-modified: 20241119042530630
+modified: 20241119070655273
 modifier: straywriter
 tags: 语言绑定
-title: 操作符绑定
+title: 绑定重载的操作符
+type: text/markdown
