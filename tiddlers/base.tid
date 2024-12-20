@@ -28,48 +28,33 @@ type: text/vnd.tiddlywiki
 .markdown h4,
 .markdown h5 {
     font-family: 'Arial', sans-serif; /* 字体 */
-    color: #333; /* 字体颜色 */
-    margin: 20px 0; /* 上下外边距 */
 }
 
 /* h1 标题样式 */
 .markdown h1 {
     font-size: 28px; /* 字体大小 */
-    background-color: #f0f8ff; /* 背景颜色 */
-    padding: 10px 15px; /* 内边距 */
-    border-left: 5px solid #1e90ff; /* 左侧边框 */
 }
 
 /* h2 标题样式 */
 .markdown h2 {
     font-size: 24px; /* 字体大小 */
-    background-color: #e6f7ff; /* 背景颜色 */
-    padding: 8px 12px; /* 内边距 */
-    border-left: 4px solid #1e90ff; /* 左侧边框 */
 }
 
 /* h3 标题样式 */
 .markdown h3 {
     font-size: 22px; /* 字体大小 */
-    background-color: #ccf0ff; /* 背景颜色 */
-    padding: 6px 10px; /* 内边距 */
-    border-left: 3px solid #1e90ff; /* 左侧边框 */
 }
 
 /* h4 标题样式 */
 .markdown h4 {
     font-size: 20px; /* 字体大小 */
-    background-color: #b3e6ff; /* 背景颜色 */
-    padding: 4px 8px; /* 内边距 */
-    border-left: 2px solid #1e90ff; /* 左侧边框 */
+
 }
 
 /* h5 标题样式 */
 .markdown h5 {
     font-size: 18px; /* 字体大小 */
-    background-color: #99ddff; /* 背景颜色 */
-    padding: 2px 6px; /* 内边距 */
-    border-left: 1px solid #1e90ff; /* 左侧边框 */
+
 }
 
 
