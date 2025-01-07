@@ -32,28 +32,33 @@ type: text/vnd.tiddlywiki
 
 /* h1 标题样式 */
 .markdown h1 {
-    font-size: 28px; /* 字体大小 */
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
 }
 
 /* h2 标题样式 */
 .markdown h2 {
-    font-size: 24px; /* 字体大小 */
+	font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
 }
 
 /* h3 标题样式 */
 .markdown h3 {
-    font-size: 22px; /* 字体大小 */
+    font-size: 1.5em;
+    line-height: 1.43;
 }
 
 /* h4 标题样式 */
 .markdown h4 {
-    font-size: 20px; /* 字体大小 */
+    font-size: 1.25em;
 
 }
 
 /* h5 标题样式 */
 .markdown h5 {
-    font-size: 18px; /* 字体大小 */
+    font-size: 1em;
 
 }
 
